@@ -11,6 +11,7 @@
 |userid|是|字符串|用户GID||
 |token|是|字符串|验证码||
 |gid|是|字符串|文章GID||
+|type|是|数字|1-收藏/0-取消收藏||
 
 ###请求示例
 <pre>
@@ -18,7 +19,8 @@
 {
      "userid": "用户GID",
      "token": "token",
-     "gid":"文章GID"
+     "gid":"文章GID",
+    "type":"1-收藏/0-取消收藏"
 }
 </code>
 </pre>

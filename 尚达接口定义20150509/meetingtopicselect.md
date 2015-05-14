@@ -31,7 +31,7 @@
        "code": 1,
        "message": "查询成功",
        "result_data":
-       [
+       [【20150513修改】
            {
                 "gid":"日程GID",
                 "parentgid":"所属日程GID",

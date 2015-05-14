@@ -38,7 +38,8 @@
             "local":"会议地址",
             "localDetail":"会议详细地址",
             "sponsor":"会议发起人",
-            "detail":"会议描述"
+            "detail":"会议描述",
+            "localgps":"地图位置"【20150513修改】
        }
 
     }

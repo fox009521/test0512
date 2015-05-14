@@ -10,7 +10,7 @@
 |--|--|--|--|--|--|
 |userid|是|字符串|用户GID||
 |token|是|字符串|验证码||
-|keyword|是|字符串|查询输入的内容（为空则全部查询）||
+|gid|是|字符串|查询输入的内容（为空则全部查询）||
 
 ###请求示例
 <pre>
@@ -18,7 +18,7 @@
 {
      "userid": "用户GID",
      "token": "token",
-     "Gid":"病人GID"
+     "gid":"病人GID"
 }
 </code>
 </pre>
@@ -37,7 +37,7 @@
             "age":"病人年龄",
             "gender":"性别(1-男/2-女)",
             "sick":"疾病1",
-            "VisitDate":"就诊时间",
+            "visitdate【20150513修改】":"就诊时间",
             "lstrecord":
             [
                 {
@@ -45,36 +45,16 @@
                     "title":"病程标题",
                     "detail":"病程内容",
                     "date":"病程记录时间",
-                    "pic":
-                    [
-                        {"imgGid":"图片GID", "imgurl":"图片"URL"},
-                        {"imgGid":"图片GID", "imgurl":"图片"URL"},
-                        {"imgGid":"图片GID", "imgurl":"图片"URL"}
-                    ],
-                    "vid":
-                    [
-                        {"vidGid":"视频GID", "vidurl":"视频URL"},
-                        {"vidGid":"视频GID", "vidurl":"视频URL"},
-                        {"vidGid":"视频GID", "vidurl":"视频URL"}
-                    ]
+                    "pic":"图片GID,图片GID",
+                    "vid":"视频VID,视频VID"
                 },
                 {
                     "Gid":"病程GID",
                     "title":"病程标题",
                     "detail":"病程内容",
                     "date":"病程记录时间",
-                    "pic":
-                    [
-                        {"imgGid":"图片GID", "imgurl":"图片"URL"},
-                        {"imgGid":"图片GID", "imgurl":"图片"URL"},
-                        {"imgGid":"图片GID", "imgurl":"图片"URL"}
-                    ],
-                    "vid":
-                    [
-                        {"vidGid":"视频GID", "vidurl":"视频URL"},
-                        {"vidGid":"视频GID", "vidurl":"视频URL"},
-                        {"vidGid":"视频GID", "vidurl":"视频URL"}
-                    ]
+                    "pic":"图片GID,图片GID",
+                    "vid":"视频VID,视频VID"
                 }
             ]
         }

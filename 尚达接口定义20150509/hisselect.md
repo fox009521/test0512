@@ -33,36 +33,30 @@
        "code": 1,
        "message": "查询成功",
        "result_data":
-       [
+       [【20150513修改】
             {
-                "Gid":"病人GID",
+                "gid":"病人GID",
                 "name":"病人姓名",
                 "age":"病人年龄",
                 "gender":"性别(1-男/2-女)",
-                "sick":"疾病1",
-                "sick2":"疾病2",
-                "sick3":"疾病3",
-                "VisitDate":"就诊时间"
+                "sick":"疾病"
+                "visitedate":"就诊时间"
             },
             {
-                "Gid":"病人GID",
+                "gid":"病人GID",
                 "name":"病人姓名",
                 "age":"病人年龄",
                 "gender":"性别(1-男/2-女)",
-                "sick":"疾病1",
-                "sick2":"疾病2",
-                "sick3":"疾病3",
-                "VisitDate":"就诊时间"
+                "sick":"疾病"
+                "visitedate":"就诊时间"
             },
             {
-                "Gid":"病人GID",
+                "gid":"病人GID",
                 "name":"病人姓名",
                 "age":"病人年龄",
                 "gender":"性别(1-男/2-女)",
-                "sick":"疾病1",
-                "sick2":"疾病2",
-                "sick3":"疾病3",
-                "VisitDate":"就诊时间"
+                "sick":"疾病"
+                "visitedate":"就诊时间"
             }
        ]
 

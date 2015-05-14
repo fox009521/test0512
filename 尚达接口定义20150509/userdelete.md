@@ -10,7 +10,7 @@
 |--|--|--|--|--|--|
 |userid|是|字符串|用户GID||
 |token|是|字符串|token||
-|deleteusergid|是|字符串|注销的用户GID||
+|deleteusergid【20150513删除】|是|字符串|注销的用户GID||
 
 ###请求示例
 <pre>
